@@ -1,0 +1,20 @@
+dotnet ef dbcontext scaffold "Server=192.168.10.101;Database=Authentication;User Id=sa;Password=P@ssw0rd;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models/MesSystem --context MESDbContext --context-dir . --force --no-onconfiguring
+
+
+
+--- Add migration ---
+dotnet ef migrations add "Initial" --context "ApplicationDbContext" --output-dir "Migrations\Application" -p "Database\ApplicationDB\ApplicationDB.csproj" -s "Services\Authentication\Authentication.csproj"
+
+dotnet ef migrations add "Initial" --context "SystemDbContext" --output-dir "Migrations\System" -p "Database\ApplicationDB\ApplicationDB.csproj" -s "Services\Authentication\Authentication.csproj"
+
+
+--- Update database --- 
+dotnet ef database update --context "ApplicationDbContext" -p "Database\ApplicationDB\ApplicationDB.csproj" -s "Services\Authentication\Authentication.csproj"
+
+dotnet ef database update --context "SystemDbContext" -p "Database\ApplicationDB\ApplicationDB.csproj" -s "Services\Authentication\Authentication.csproj"
+
+
+--- Remove migration ---
+dotnet ef database update --context "ApplicationDbContext" -p "Database\ApplicationDB\ApplicationDB.csproj" -s "Services\Authentication\Authentication.csproj"
+
+dotnet ef database update --context "SystemDbContext" -p "Database\ApplicationDB\ApplicationDB.csproj" -s "Services\Authentication\Authentication.csproj"

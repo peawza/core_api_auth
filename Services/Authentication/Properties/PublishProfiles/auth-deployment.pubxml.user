@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>\\192.168.11.75\iiot\UACJ-TMS\API-Auth</_PublishTargetUrl>
+    <History>True|2026-03-13T07:59:10.7611092Z||;True|2026-03-13T00:26:20.6293300+07:00||;True|2026-03-13T00:12:53.8606571+07:00||;True|2026-02-14T03:01:36.8431418+07:00||;True|2026-02-14T02:59:40.2414711+07:00||;True|2026-02-14T02:59:08.0920546+07:00||;True|2026-02-14T02:56:07.4543745+07:00||;True|2026-02-14T02:53:44.5500540+07:00||;True|2026-02-14T02:52:53.1027665+07:00||;True|2026-02-14T02:47:11.6416177+07:00||;False|2026-02-14T02:46:10.8095277+07:00||;True|2026-02-14T02:44:24.7989822+07:00||;True|2026-02-14T02:43:21.7729686+07:00||;True|2026-02-14T02:41:22.2311735+07:00||;True|2026-02-14T01:58:40.4196199+07:00||;True|2026-02-13T20:05:14.8122073+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

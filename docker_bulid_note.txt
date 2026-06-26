@@ -1,0 +1,9 @@
+docker build -f Dockerfile.auth -t auth-api:latest .
+
+
+
+
+
+
+
+

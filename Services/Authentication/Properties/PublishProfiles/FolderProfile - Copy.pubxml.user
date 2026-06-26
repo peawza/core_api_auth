@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\DeployMES\4003-Mes-auth</_PublishTargetUrl>
+    <History>True|2025-08-05T17:16:36.8380646Z||;True|2025-08-06T00:12:55.4280505+07:00||;True|2025-08-05T10:53:23.0512787+07:00||;True|2025-08-05T10:52:04.0933509+07:00||;True|2025-08-05T10:51:52.5444872+07:00||;True|2025-08-05T10:51:09.0964726+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

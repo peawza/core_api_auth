@@ -1,0 +1,28 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Logs
+*.log
+
+# Environment / secrets
+**/appsettings.Development.json
+**/*.user
+
+# Docker
+docker_bulid_note.txt
+Dockerfile*
+
+# Version control
+.git/
+.gitignore
+
+# Editor / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Misc
+README.md
+*.md
