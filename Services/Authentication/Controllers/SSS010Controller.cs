@@ -177,6 +177,31 @@ namespace Authentication.Controllers
                     return Unauthorized("E0073");
 
 
+                // ---------- OTP required ----------
+                // ผู้ใช้เปิด Verify login ผ่าน OTP: ห้ามออก JWT/RefreshToken และห้ามตั้ง cookie session
+                // ตรงนี้ เพราะ login ยังไม่สมบูรณ์ ต้องผ่านขั้น /SSS010/otpverifylogin ก่อน
+                // (รหัสผ่านถูกต้องและผ่าน policy ทั้งหมดแล้ว ณ จุดนี้)
+                if (appUser.OTPLogin == true)
+                {
+                    await this.userManager.ResetAccessFailedCountAsync(appUser);
+
+                    var userInfoOtp = this.userManager.GetUserInfo(appUser);
+
+                    return Ok(new
+                    {
+                        Id = appUser.Id,
+                        UserNumber = userInfoOtp.UserNumber,
+                        UserName = appUser.UserName,
+                        VerifyLogin = true,                 // frontend -> ไปหน้า OTP
+                        LanguageCode = userInfoOtp.LanguageCode,
+                        DisplayName = userInfoOtp.Name.ToUpper(),
+                        Token = (string?)null,              // ยังไม่ออก JWT จนกว่าจะผ่าน OTP
+                        RefreshToken = (string?)null,
+                        PermissionScreen = (string?)null,   // permission จะส่งหลังผ่าน OTP
+                        Timeout = Convert.ToDouble(this.configuration["JwtExpireMinutes"]),
+                        RemindPasswordExpired = remindPasswordExpired
+                    });
+                }
 
 
 

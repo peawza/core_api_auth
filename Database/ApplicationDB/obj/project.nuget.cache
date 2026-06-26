@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "351ZlBE7o70=",
+  "dgSpecHash": "ZAYUQgm/b8g=",
   "success": true,
-  "projectFilePath": "G:\\github\\peaw_Next.js\\backend\\api.auth\\Database\\ApplicationDB\\ApplicationDB.csproj",
+  "projectFilePath": "G:\\github\\core_api_auth\\Database\\ApplicationDB\\ApplicationDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\agile\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\agile\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

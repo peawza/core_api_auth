@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bfKBK1mevG4=",
+  "dgSpecHash": "f3PRGj4V7q8=",
   "success": true,
-  "projectFilePath": "G:\\github\\peaw_Next.js\\backend\\api.auth\\Services\\Authentication\\Authentication.csproj",
+  "projectFilePath": "G:\\github\\core_api_auth\\Services\\Authentication\\Authentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\agile\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\agile\\.nuget\\packages\\awssdk.core\\3.7.401.2\\awssdk.core.3.7.401.2.nupkg.sha512",

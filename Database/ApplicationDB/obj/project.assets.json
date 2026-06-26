@@ -4187,11 +4187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\github\\peaw_Next.js\\backend\\api.auth\\Database\\ApplicationDB\\ApplicationDB.csproj",
+      "projectUniqueName": "G:\\github\\core_api_auth\\Database\\ApplicationDB\\ApplicationDB.csproj",
       "projectName": "ApplicationDB",
-      "projectPath": "G:\\github\\peaw_Next.js\\backend\\api.auth\\Database\\ApplicationDB\\ApplicationDB.csproj",
+      "projectPath": "G:\\github\\core_api_auth\\Database\\ApplicationDB\\ApplicationDB.csproj",
       "packagesPath": "C:\\Users\\agile\\.nuget\\packages\\",
-      "outputPath": "G:\\github\\peaw_Next.js\\backend\\api.auth\\Database\\ApplicationDB\\obj\\",
+      "outputPath": "G:\\github\\core_api_auth\\Database\\ApplicationDB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

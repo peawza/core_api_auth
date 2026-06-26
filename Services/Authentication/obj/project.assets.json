@@ -9903,11 +9903,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\github\\peaw_Next.js\\backend\\api.auth\\Services\\Authentication\\Authentication.csproj",
+      "projectUniqueName": "G:\\github\\core_api_auth\\Services\\Authentication\\Authentication.csproj",
       "projectName": "Authentication",
-      "projectPath": "G:\\github\\peaw_Next.js\\backend\\api.auth\\Services\\Authentication\\Authentication.csproj",
+      "projectPath": "G:\\github\\core_api_auth\\Services\\Authentication\\Authentication.csproj",
       "packagesPath": "C:\\Users\\agile\\.nuget\\packages\\",
-      "outputPath": "G:\\github\\peaw_Next.js\\backend\\api.auth\\Services\\Authentication\\obj\\",
+      "outputPath": "G:\\github\\core_api_auth\\Services\\Authentication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9929,11 +9929,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\github\\peaw_Next.js\\backend\\api.auth\\Database\\ApplicationDB\\ApplicationDB.csproj": {
-              "projectPath": "G:\\github\\peaw_Next.js\\backend\\api.auth\\Database\\ApplicationDB\\ApplicationDB.csproj"
+            "G:\\github\\core_api_auth\\Database\\ApplicationDB\\ApplicationDB.csproj": {
+              "projectPath": "G:\\github\\core_api_auth\\Database\\ApplicationDB\\ApplicationDB.csproj"
             },
-            "G:\\github\\peaw_Next.js\\backend\\api.auth\\Libraries\\Utils\\Utils\\utils.core.mssql.csproj": {
-              "projectPath": "G:\\github\\peaw_Next.js\\backend\\api.auth\\Libraries\\Utils\\Utils\\utils.core.mssql.csproj"
+            "G:\\github\\core_api_auth\\Libraries\\Utils\\Utils\\utils.core.mssql.csproj": {
+              "projectPath": "G:\\github\\core_api_auth\\Libraries\\Utils\\Utils\\utils.core.mssql.csproj"
             }
           }
         }
